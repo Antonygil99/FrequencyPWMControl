@@ -12,6 +12,7 @@
 uint8 i = 0;        //interruption flag
 uint16 output = 0; //ADC gotten value
 uint16 freq = 0;  //Varable for the frequency mapping
+char data[50];   
 
 
 //..............................
@@ -64,7 +65,7 @@ int main(void)
         
        //this part of the code corresponds to the OLED display I2C module 
        //which has some bugs those which I am Working yet.
-       char data[50];
+       
        sprintf(data,"%u",devregclock);
        display_clear();    
        display_update();    
