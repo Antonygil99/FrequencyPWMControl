@@ -12,17 +12,14 @@
 uint8 i = 0;        //interruption flag
 uint16 output = 0; //ADC gotten value
 uint16 freq = 0;  //Varable for the frequency mapping
-char data[50];   
+uint16 mapfreq = 0;
 
 
 //..............................
 //.....M A P F U N C T I O N....
 //..............................
+long map(long x, long in_min, long in_max, long out_min, long out_max);
 
-uint32_t MAP(uint8_t au32_IN, uint32_t au32_INmin, uint32_t au32_INmax, uint32_t au32_OUTmin, uint32_t au32_OUTmax)
-{
-    return ((((au32_IN - au32_INmin)*(au32_OUTmax - au32_OUTmin))/(au32_INmax - au32_INmin)) + au32_OUTmin);
-}
 //PROTO FUNCTION FOR SWITCH INTERRUPT
 CY_ISR_PROTO(duty);// Duty cycles from PWM1 and PWM2 are modified
 
@@ -47,32 +44,39 @@ int main(void)
         
         if(ADC_IsEndConversion(ADC_RETURN_STATUS))
         {
+            CyDelay(20);
             output = ADC_GetResult8();
             
-            freq = MAP(output,0,256,1332,132);            
+            freq = map(output,0,127,132,1332);
+            mapfreq = map(output,0,127,700,70);
              /*Saturate ADC result to positive numbers. */
-            if(output < 0)
+            if(output <= 0)
             {
                 output = 0;
             }
 
-            Clock_SetDividerRegister(freq,0);//sets the devider register from 1132(70Hz) to 132(700Hz) 
-            //modifies the period of both PWM1 and PWM2
+            Clock_SetDividerRegister(freq,1);//sets the devider register from 1132(70Hz) to 132(700Hz) 
+       //modifies the period of both PWM1 and PWM2
      
        }
+       
         
        uint16 devregclock = Clock_GetDividerRegister();//gets the divider register value
         
        //this part of the code corresponds to the OLED display I2C module 
        //which has some bugs those which I am Working yet.
-       
-       sprintf(data,"%u",devregclock);
+       char data[50];
+       sprintf(data,"%u",mapfreq);
        display_clear();    
        display_update();    
        gfx_setTextSize(3);
        gfx_setTextColor(WHITE);
-       gfx_setCursor(2,5);
+       gfx_setCursor(10,10);
        gfx_println(data);
+       gfx_setTextSize(2);
+       gfx_setTextColor(WHITE);
+       gfx_setCursor(65,20);
+       gfx_println("Hz");
        display_update();
       // CyDelay(200);
         
@@ -183,6 +187,13 @@ CY_ISR(duty)
     duty_ClearInterrupt();
     
     
+}
+long map(long x, long in_min, long in_max, long out_min, long out_max) {
+    long divisor = (in_max - in_min);
+    if(divisor == 0){
+        return -1; //AVR returns -1, SAM returns 0
+    }
+    return (x - in_min) * (out_max - out_min) / divisor + out_min;
 }
 
 /* [] END OF FILE */
