@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Workspace_FreqPWM</v>
+<v>Workspace_FreqPWM\degpwm</v>
+<v>Workspace_FreqPWM\degpwm\TopDesign</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.cydwr</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.cydwr\Pins</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.cydwr\Analog</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.cydwr\Clocks</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.cydwr\Interrupts</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.cydwr\DMA</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.cydwr\System</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.cydwr\Directives</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.cydwr\Flash Security</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.cydwr\EEPROM</v>
+<v>Workspace_FreqPWM\degpwm\Header Files</v>
+<v>Workspace_FreqPWM\degpwm\Header Files\cyapicallbacks.h</v>
+<v>Workspace_FreqPWM\degpwm\Header Files\ssd1306.h</v>
+<v>Workspace_FreqPWM\degpwm\Source Files</v>
+<v>Workspace_FreqPWM\degpwm\Source Files\main.c</v>
+<v>Workspace_FreqPWM\degpwm\Source Files\ssd1306.c</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Workspace_FreqPWM</v>
+<v>Workspace_FreqPWM\degpwm</v>
+<v>Workspace_FreqPWM\degpwm\TopDesign</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.cydwr</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.cydwr\Pins</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.cydwr\Analog</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.cydwr\Clocks</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.cydwr\Interrupts</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.cydwr\DMA</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.cydwr\System</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.cydwr\Directives</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.cydwr\Flash Security</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.cydwr\EEPROM</v>
+<v>Workspace_FreqPWM\degpwm\Header Files</v>
+<v>Workspace_FreqPWM\degpwm\Header Files\cyapicallbacks.h</v>
+<v>Workspace_FreqPWM\degpwm\Header Files\ssd1306.h</v>
+<v>Workspace_FreqPWM\degpwm\Source Files</v>
+<v>Workspace_FreqPWM\degpwm\Source Files\main.c</v>
+<v>Workspace_FreqPWM\degpwm\Source Files\ssd1306.c</v>
+<v>Workspace_FreqPWM\degpwm\Generated_Source</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Workspace_FreqPWM">
+<ExpandedNodeIds>
+<v>Workspace_FreqPWM</v>
+<v>Workspace_FreqPWM\degpwm</v>
+<v>Workspace_FreqPWM\degpwm\TopDesign</v>
+<v>Workspace_FreqPWM\degpwm\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Workspace_FreqPWM</v>
+<v>Workspace_FreqPWM\degpwm</v>
+<v>Workspace_FreqPWM\degpwm\TopDesign</v>
+<v>Workspace_FreqPWM\degpwm\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Workspace_FreqPWM</v>
+<v>Workspace_FreqPWM\degpwm</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_AMux.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_Ext_CP_Clk.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_INT.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_IRQ.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_PM.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_theACLK.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\AMux.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\AngleSet.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\dimmerout.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\freqMod.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\I2COLED.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\I2COLED_BOOT.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\I2COLED_INT.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\I2COLED_MASTER.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\I2COLED_PM.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\I2COLED_SLAVE.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_triggerAngle.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\OPAMP.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\OPAMP_PM.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM_1.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM_1_PM.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\pwmout1.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\pwmout2.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\SCL_1.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\SDA_1.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\ssd1306.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\triggerAngle.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\degpwm.elf</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\degpwm.hex</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\degpwm.map</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.gpdsc</v>
+<v>Workspace_FreqPWM\degpwm\degpwm.rpt</v>
+<v>Workspace_FreqPWM\degpwm\degpwm_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Workspace_FreqPWM</v>
+<v>Workspace_FreqPWM\degpwm</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_AMux.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_Ext_CP_Clk.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_INT.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_IRQ.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_PM.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_theACLK.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\AMux.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\AngleSet.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\dimmerout.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\freqMod.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\I2COLED.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\I2COLED_BOOT.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\I2COLED_INT.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\I2COLED_MASTER.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\I2COLED_PM.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\I2COLED_SLAVE.lst</v>
+<v>Workspace_FreqPWM\degpwm\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_triggerAngle.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Workspace_FreqPWM">
+<ExpandedNodeIds>
+<v>Workspace_FreqPWM</v>
+<v>Workspace_FreqPWM\degpwm</v>
+<v>Workspace_FreqPWM\degpwm\PSoC 5LP Architecture TRM</v>
+<v>Workspace_FreqPWM\degpwm\CY8C58LP Family Datasheet</v>
+<v>Workspace_FreqPWM\degpwm\System Reference Guides</v>
+<v>Workspace_FreqPWM\degpwm\System Reference Guides\cy_boot_v6_10</v>
+<v>Workspace_FreqPWM\degpwm\Project Datasheet</v>
+<v>Workspace_FreqPWM\degpwm\ADC_DelSig_v3_30.pdf</v>
+<v>Workspace_FreqPWM\degpwm\AMux_v1_80.pdf</v>
+<v>Workspace_FreqPWM\degpwm\cy_clock_v2_20.pdf</v>
+<v>Workspace_FreqPWM\degpwm\cy_constant_v1_0.pdf</v>
+<v>Workspace_FreqPWM\degpwm\cy_isr_v1_71.pdf</v>
+<v>Workspace_FreqPWM\degpwm\cy_pins_v2_20</v>
+<v>Workspace_FreqPWM\degpwm\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Workspace_FreqPWM\degpwm\I2C_v3_50.pdf</v>
+<v>Workspace_FreqPWM\degpwm\OpAmp_v1_90.pdf</v>
+<v>Workspace_FreqPWM\degpwm\PWM_v3_30.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Workspace_FreqPWM</v>
+<v>Workspace_FreqPWM\degpwm</v>
+<v>Workspace_FreqPWM\degpwm\PSoC 5LP Architecture TRM</v>
+<v>Workspace_FreqPWM\degpwm\CY8C58LP Family Datasheet</v>
+<v>Workspace_FreqPWM\degpwm\System Reference Guides</v>
+<v>Workspace_FreqPWM\degpwm\System Reference Guides\cy_boot_v6_10</v>
+<v>Workspace_FreqPWM\degpwm\Project Datasheet</v>
+<v>Workspace_FreqPWM\degpwm\ADC_DelSig_v3_30.pdf</v>
+<v>Workspace_FreqPWM\degpwm\AMux_v1_80.pdf</v>
+<v>Workspace_FreqPWM\degpwm\cy_clock_v2_20.pdf</v>
+<v>Workspace_FreqPWM\degpwm\cy_constant_v1_0.pdf</v>
+<v>Workspace_FreqPWM\degpwm\cy_isr_v1_71.pdf</v>
+<v>Workspace_FreqPWM\degpwm\cy_pins_v2_20</v>
+<v>Workspace_FreqPWM\degpwm\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Workspace_FreqPWM\degpwm\I2C_v3_50.pdf</v>
+<v>Workspace_FreqPWM\degpwm\OpAmp_v1_90.pdf</v>
+<v>Workspace_FreqPWM\degpwm\PWM_v3_30.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\degpwm.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\degpwm.cydsn\main.c" />
+<name v=".\degpwm.cydsn\degpwm.cydwr" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1055, 505" SelectedTabbedMdiWindow="c8a41950-51b9-4488-b661-a2980c305ccb"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="4d1269b9-9142-4dcc-ae37-2d01a17df20a" /><DocumentWindow Key="C:\Users\hp\Documents\Intership\PSoC\PWM_WS\degpwm.cydsn\TopDesign\TopDesign.cysch" Guid="c8a41950-51b9-4488-b661-a2980c305ccb" /><DocumentWindow Key="C:\Users\hp\Documents\Intership\PSoC\PWM_WS\degpwm.cydsn\main.c" Guid="9b8956b2-843e-47ab-ab63-ece65e3958c7" /><DocumentWindow Key="C:\Users\hp\Documents\Intership\PSoC\PWM_WS\degpwm.cydsn\degpwm.cydwr" Guid="02efc9bc-725c-469e-accc-acc5361c5963" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
