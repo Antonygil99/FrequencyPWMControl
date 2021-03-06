@@ -26,7 +26,7 @@ uint16 mapfreq = 0;
 
 long delaytime = 0;//measures the trigger time
 
-
+uint8 selection = 0;
 //..............................
 //.....M A P F U N C T I O N....
 //..............................
@@ -37,6 +37,7 @@ long map(long x, long in_min, long in_max, long out_min, long out_max);
 //.............................
 
 CY_ISR_PROTO(angle_set);
+CY_ISR_PROTO(select_set);
 
 //..............................
 //.....ADC FREQUENCY LECT......
@@ -45,12 +46,12 @@ CY_ISR_PROTO(angle_set);
 void adc_frequency();
 void adc_triggerLect();
 
-
-
 int main(void)
 {
     CyGlobalIntEnable; /* Enable global interrupts. */
     isr_triggerAngle_StartEx(angle_set);
+    isr_sele_StartEx(select_set);
+    isr_sele_ClearPending();
     isr_triggerAngle_ClearPending();    
     PWM_1_Start();
     
@@ -61,10 +62,35 @@ int main(void)
     I2COLED_Start();
     display_init(DISPLAY_ADDRESS);
    
+       display_clear();    
+       display_update();    
+       gfx_setTextSize(2);
+       gfx_setTextColor(WHITE);
+       gfx_setCursor(20,10);
+       gfx_println("Press SW");
+       display_update();
+    CyDelay(1000);
+    
+    
     for(;;)
     {
-       adc_frequency();
-       adc_triggerLect();
+       
+       
+       if(selection == 1)
+       {
+         adc_frequency();
+       }
+       else if(selection == 0)
+       {
+        adc_triggerLect();
+       }
+    
+       if(selection > 1)
+    {
+        selection = 0;
+    }
+      
+       
         
        
     }
@@ -74,7 +100,7 @@ int main(void)
 
 CY_ISR(angle_set)
 {
-    CyDelay(delaytime);
+    CyDelayUs(delaytime);
     dimmerout_Write(1);
     CyDelayUs(10);
     dimmerout_Write(0);
@@ -83,16 +109,21 @@ CY_ISR(angle_set)
     
 }
 
+CY_ISR(select_set)
+{
+    selection++;
+}
+
 void adc_frequency()
 {
     AMux_FastSelect(0);
         ADC_StartConvert();
         ADC_IsEndConversion(ADC_WAIT_FOR_RESULT);
-        output[0] = ADC_GetResult8();
+        output[0] = ADC_GetResult16();
         ADC_StopConvert();
             
-            freq = map(output[0],0,127,132,1332);
-            mapfreq = map(output[0],0,127,700,70);
+            freq = map(output[0],0,1024,132,1332);
+            mapfreq = map(output[0],0,1024,700,70);
              /*Saturate ADC result to positive numbers. */
             if(output[0] <= 0)
             {
@@ -121,13 +152,24 @@ void adc_frequency()
 
 void adc_triggerLect()
 {
+    char data2[20];
     AMux_FastSelect(1);
     ADC_StartConvert();
     ADC_IsEndConversion(ADC_WAIT_FOR_RESULT);
-    output[1] = ADC_GetResult8();
+    output[1] = ADC_GetResult16();
     ADC_StopConvert();
-            
-    delaytime = map(output[1],0,255,0,8);   
+    
+    delaytime = map(output[1],0,1024,0,8000);
+    sprintf(data2,"%ld",delaytime);
+       display_clear();    
+       display_update();    
+       gfx_setTextSize(1);
+       gfx_setTextColor(WHITE);
+       gfx_setCursor(0,0);
+       gfx_println(data2);
+       
+       display_update();
+    
 }
 
 
@@ -140,4 +182,3 @@ long map(long x, long in_min, long in_max, long out_min, long out_max) {
 }
 
 /* [] END OF FILE */
-
